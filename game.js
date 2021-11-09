@@ -1,3 +1,4 @@
 var canvas = document.getElementById("game");
-var ctx = canvasgetContext("2d");
-ctx.fillRect(0, 0, 10, 10);
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "Black";
+ctx.fillRect(0, 0, 100, 100);
