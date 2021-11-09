@@ -1,7 +1,7 @@
-var canvas = document.getElementById("game");
-var ctx = canvas.getContext("2d");
-ctx.fillStyle = "Teal";
-ctx.fillRect(0, 0, 640, 480);
+//var canvas = document.getElementById("game");
+//var ctx = canvas.getContext("2d");
+//ctx.fillStyle = "Teal";
+//ctx.fillRect(0, 0, 640, 480);
 
 var bee = function (x, y){
   ctx.lineWidth = 2;
