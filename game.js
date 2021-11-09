@@ -14,18 +14,18 @@ var bee = function (x, y){
   circle(x + 5, y - 11, 5, false);
 }
 
-var update = function(coordinate){
-  var offset = Math.random()*4-2;
-  coordinate += offset;
-
-  if(coordinate > 200){
-    coordinate = 200;
-  }
-
-  if(coordinate < 0){
-    coordinate = 0;
-  }
-
-  return coordinate;
-
-}
+// var update = function(coordinate){
+//   var offset = Math.random()*4-2;
+//   coordinate += offset;
+//
+//   if(coordinate > 200){
+//     coordinate = 200;
+//   }
+//
+//   if(coordinate < 0){
+//     coordinate = 0;
+//   }
+//
+//   return coordinate;
+//
+// }
